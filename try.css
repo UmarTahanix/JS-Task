@@ -1,0 +1,150 @@
+@font-face {
+    font-family: myfont;
+    src: url(seven.ttf);
+}
+
+body {
+    text-align: center;
+    background-color: #1B244A;
+    outline-color: white;
+    margin-right: 460px;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6
+{
+    box-sizing: border-box;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: myfont;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 271px;
+    border-color: #9AABD8;
+    font-size: 18px;
+    border: 2px solid #9AABD8;
+}
+
+#home, #away, #reset
+{
+    color:#EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#reset {
+    background-color: #1B244A;
+    position: absolute;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 36px;
+    margin-left:260px;
+    font-weight: 700;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #9AABD8;
+}
+
+#home, #away
+{
+    font-size: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+#button1 {
+    position: absolute;
+    margin-left: 82px;
+}
+
+#button2 {
+    position: absolute;
+    margin-left: 136px;
+}
+
+#button3 {
+    position: absolute;
+    margin-left: 192px;
+}
+
+#button4 {
+    position: absolute;
+    margin-left: 337px;
+}
+
+#button5 {
+    position: absolute;
+    margin-left: 391px;
+}
+
+#button6 {
+    position: absolute;
+    margin-left: 447px;
+}
+
+#away {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    margin-top: 68px;
+    margin-left: 340px;
+}
+
+#home{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    margin-top: 68px;
+    margin-left: 85px;
+}
+
+#homeres, #awayres
+{
+    position: absolute;
+    background-color:#080001;
+    width: 155px;
+    height: 120px;
+    margin-top: 125px;
+    border: 2px solid #080001;
+    border-radius: 5px;
+}
+
+#homeres
+{
+    margin-left: 615px;
+}
+
+#awayres
+{
+    margin-left: 870px;
+}
+
+
+
+#resHome 
+{
+    position: absolute;
+    font-family: myfont;
+    color:  #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    line-height: 126.67px;
+    width: 117px;
+    height: 120px;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+#resAway
+{
+    position: absolute;
+    font-family: myfont;
+    color:  #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    line-height: 126.67px;
+    width: 117px;
+    height: 120px;
+    margin-top: 125px;
+    margin-left: 357px;
+}
